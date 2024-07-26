@@ -26,21 +26,38 @@
             <style>
                 .img-logo-login {
                     align-items: center;
-                    justify-items: center;
-                    
+                    justify-items: center; 
                 }
             </style>
    </head>
     <body>
-        <div class="card-body container">
+        <div class="card-body container max-width">
             <img src="assets/img/logo/logo4.jpg" alt="logo" class="rounded mx-auto d-block">
-            <h3 class="h3 text-center">-----------------</h3>
-            <div class="card card-primary">
-                <div class="card-header">
+            <h3 class="h3 text-center"></h3>
+            <div class="card card-danger">
+                <div class="card-header text-center">
                     Login   
                 </div>
                 <div class="card-body">
-                    
+                    <div id="login-info-box"></div>
+                    <div class="crad-row">
+                        <div class="col-md-6 mb-5">
+                            <form method="POST" action="">
+                                <!-- Login Email Form -->
+                                <div class="form-group">
+                                    <label for="email" class="text-small">Email</label>
+                                    <input id="email" type="email" class="form-control" name="email"  required autofocus autocomplete="email">
+                                </div>
+                                <!-- Login Password Form -->
+                                <div class="form-group">
+                                    <div class="d-block">
+                                        <label for="password" class="text-small">Password</label>
+                                        <input id="password" type="password" class="form-control primary" name="password"  required autofocus autocomplete="password" >
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
