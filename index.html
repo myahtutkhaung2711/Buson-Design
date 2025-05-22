@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Consulting HTML-5 Template </title>
+        <title>eJLS LEARNING</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="manifest" href="myapp-manifest.json">
 
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons_/icon-144.png">
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -23,6 +23,9 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/custom.css">
+        <!-- SCSS here -->
+         <link rel="stylesheet" href="assets/scss/style.scss">
    </head>
 
    <body>
@@ -78,7 +81,7 @@
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8">
                                 <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
+                                <div class="main-menu f-right d-none d-lg-block text-dark">
                                     <nav> 
                                         <ul id="navigation">                                                                                                                                     
                                             <li><a href="index.html">Home</a></li>
@@ -122,7 +125,7 @@
                                 </div>
                             </div>             
                             <li class="userlog">
-                                <select name="language_sel" id="language_sel">
+                                <select name="language_sel" id="language_sel" class="text-danger">
                                     <option value="#">English</option>
                                     <option value="#">Myanmar</option>
                                 </select>
@@ -151,48 +154,47 @@
         <div class="slider-area ">
             <!-- Mobile Menu -->
             <div class="slider-active">
+                <!-- <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/eJLS/homepage.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-8">
+                                <div class="hero__caption">
+                                    <h1 class="text-white">Are You Ready for Your Future!</h1>
+                                    Hero-btn
+                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
+                                        <a href="industries.html" class="btn hero-btn border-radius">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->  
                 <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8">
                                 <div class="hero__caption">
-                                    <h1>Are You Ready for Your Future!</h1>
-                                    <!-- Hero-btn -->
+                                    <p data-animation="fadeInLeft" data-delay=".4s" style="font-size: 30px; font-weight: 700; color: black; text-transform: none;">Welcome to <span style="color: #d4000b;">e</span>JLS. </p>
+                                    <h1 data-animation="fadeInLeft" data-delay=".6s" style="color: black;"">Are You Ready For Your Future ? </h1>
                                     <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Read More</a>
+                                        <a href="courses.html" class="btn hero-btn" style="border-radius: 40px;">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-8">
-                                <div class="hero__caption">
-                                    <p data-animation="fadeInLeft" data-delay=".4s">Welcome to Buson</p>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s" >We help you to grow your  business</h1>
-                                    Hero-btn
-                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Learn More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
         <!-- slider Area End-->
 
         <!-- Team-profile Start -->
-        <div class="team-profile team-padding">
+        <!-- <div class="team-profile team-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-profile mb-30">
-                            <!-- Front -->
+                            Front
                             <div class="single-profile-front">
                                 <div class="profile-img">
                                     <img src="assets/img/team/team_1.jpg" alt="">
@@ -206,7 +208,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-profile mb-30">
-                            <!-- Front -->
+                            Front
                             <div class="single-profile-front">
                                 <div class="profile-img">
                                     <img src="assets/img/team/team_2.jpg" alt="">
@@ -220,7 +222,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-profile mb-30">
-                            <!-- Back -->
+                            Back
                             <div class="single-profile-back-last">
                                 <h2>What we do for you</h2>
                                 <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore smod tem magna aliqua. Ut enim.</p>
@@ -230,7 +232,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Team-profile End-->
 
         <!-- We Trusted Start-->
@@ -239,30 +241,117 @@
                 <div class="row d-flex align-items-end">
                     <div class="col-xl-7 col-lg-7">
                         <div class="trusted-img">
-                            <img src="assets/img/team/wetrusted.jpg" alt="">
+                            <img src="assets/img/eJLS/whoweareimghomepage.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-5">
                         <div class="trusted-caption">
-                           <h2>We are more trusted then 5000 clients</h2>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru  dolor sit amet, consectetur adipn.</p>
-                            <a href="#" class="btn trusted-btn">Learn More</a>
+                           <h2>Who We <span class="text-danger">Are?</span>  </h2>
+                           <p style="font-size: 16.5px;">In this age of progress, learning languages can increase chance to get opportunity on various employments. The eJLS is designed for those students who want to attend external classes but are unable to attend for various situations and who want to learn from distant places. Being a website you can learn from anywhere, anytime using the internet. We are making an effort to learn from basic to advance and strive to pass Japanese accredited exams.</p>
+                           <a href="about.html" class="btn trusted-btn" style="border-radius: 40px;">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </div>
         <!-- We Trusted End-->
 
+        <!-- Why Choose Us Start -->
+        <div class="why-choose-section section-paddingt bg-blue"">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="section-tittle text-center">
+                        <h2>Reason Why Choose <span style="color: #e63946 ;">e</span>JLS ?</h2>
+                    </div>
+                </div> 
+
+                <div class="row">
+                    <!-- JLPT Exam Section  -->
+                    <div class="col-md-6">
+                        <div class="reason-box text-center slide-left">
+                        <div class="reason-icon"><i class="fas fa-language"></i></div>
+                        <div class="reason-title">JLPT Practice</div>
+                        <div class="reason-text">
+                            We are guiding you with frequently asked questions of Japanese Language Proficiency Test. With the practice of these questions many times will help success in passing the practical exams.
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Speaking & Listening  -->
+                    <div class="col-md-6">
+                        <div class="reason-box text-center slide-right">
+                        <div class="reason-icon"><i class="fas fa-headphones"></i></div>
+                        <div class="reason-title">Reading & Listening</div>
+                        <div class="reason-text">
+                            In addition to writing, practical speech is also included to improve speaking and listening skills.
+                        </div>
+                        </div>
+                    </div>
+                    <!-- 1 Year LifeTime  -->
+                    <div class="col-md-6">
+                        <div class="reason-box text-center slide-right">
+                        <div class="reason-icon"><i class="fas fa-calendar-check"></i></div>
+                        <div class="reason-title">1-Year Unlimited Access</div>
+                        <div class="reason-text">
+                            The duration of each course is one year, so you can study as many times as you like during that time.
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Japanese Knowledge -->
+                    <div class="col-md-6 mx-auto">
+                        <div class="reason-box text-center slide-right">
+                        <div class="reason-icon"><i class="fas fa-book"></i></div>
+                        <div class="reason-title">Japanese Knowledge</div>
+                        <div class="reason-text">
+                            It also covers a lots of knowledge about Japanese.
+                        </div>
+                        </div>
+                    </div>  
+                    <br>
+                    <div class="col-lg-12">
+                        <div class="section-tittle text-center">
+                            <!-- <h2 style="font-size: 30px;">Lesson Types</h2> -->
+                        </div>
+                    </div>
+
+                    <div class="row col-md-12">
+                        <div class="col-md-3">
+                            <div class="reason-box text-center">
+                            <div class="reason-icon text-danger"><i class="fas fa-video"></i></div>
+                            <div class="reason-title">Video</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="reason-box text-center">
+                            <div class="reason-icon text-info"><i class="fas fa-clock"></i></div>
+                            <div class="reason-title">Short Test</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="reason-box text-center">
+                            <div class="reason-icon text-primary"><i class="fas fa-question-circle"></i></div>
+                            <div class="reason-title">Quiz</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="reason-box text-center">
+                            <div class="reason-icon text-success"><i class="fas fa-file-alt"></i></div>
+                            <div class="reason-title">JLPT Exam Practice</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Why Choose us End -->
+
         <!-- services Area Start-->
-        <div class="services-area section-padding2">
+        <div class="services-area section-padding2" style="padding-top: 150px; padding-button: 150px;">
             <div class="container">
                 <!-- section tittle -->
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-tittle text-center">
-                            <h2>Our Services</h2>
+                            <h2>Our <span class="text-danger">Services</span></h2>
                         </div>
                     </div>
                 </div>
@@ -273,8 +362,10 @@
                                 <span class="flaticon-checklist"></span>
                             </div>
                             <div class="services-caption">
-                                <h4>Strategic Planning</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                <h4> Flexible Learning </h4>
+                                <p>
+                                    “Study anytime, anywhere with full-year access to your courses.”
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -283,9 +374,11 @@
                             <div class="services-icon">
                                 <span class="flaticon-audit"></span>
                             </div>
-                            <div class="services-caption">
-                                <h4>Trades & stocks</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            <div class="services-caption"> 
+                                <h4> Modern Teaching Tools </h4>
+                                <p>
+                                    “Learn with video lessons, quizzes, and short tests for better results.”
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -295,27 +388,134 @@
                                 <span class="flaticon-checklist-1"></span>
                             </div>
                             <div class="services-caption">
-                                <h4>Audit & Assurance</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                                <h4> Affordable Tuition </h4>
+                                <p>
+                                    “Reasonable pricing designed for every student’s budget.”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-icon">
+                                <span class="flaticon-checklist"></span>
+                            </div>
+                            <div class="services-caption">
+                                <h4> Ongoing Support </h4>
+                                <p>
+                                    “We support you even after you begin your learning journey.”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-icon">
+                                <span class="flaticon-audit"></span>
+                            </div>
+                            <div class="services-caption">
+                                <h4> Exam Practice & Certification </h4>
+                                <p>
+                                   “Practice old JLPT questions and earn a certificate after your exam.”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-icon">
+                                <span class="flaticon-checklist-1"></span>
+                            </div>
+                            <div class="services-caption">
+                                <h4> Easy-to-Follow Curriculum </h4>
+                                <p>
+                                    “Simple, structured lessons made for smooth learning.”
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- button -->
-                <div class="row justify-content-center">
+                <!-- <div class="row justify-content-center">
                     <div class="room-btn pt-50">
-                        <a href="services.html" class="border-btn">More Services</a>
+                        <a href="about.html" class="border-btn">More Services</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- services Area End-->
         
+        <div class="faq-section section-paddingt blue-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-tittle text-center">
+                        <h2>FAQ</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Will it be effective like external class when it comes to online class?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p>
+                                        Yes, it is easy to understand because the contents you are learning are carefully examined.
+                                        If you still don't understand, you can discuss with teachers by direct discussion section. 
+                                        From time to time, teachers explain what you don't understand by Zoom so you can learn easily.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Can I take external classes while taking online classes?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p>
+                                        Yes, there are opening external classes that you can take. For more details you can get in touch with <span class="faq-link"> <a href="https://www.facebook.com/yjls.school/"> YJLS - Yangon Japanese Language School</a> </span> and <span class="faq-link">  <a href="https://www.facebook.com/tjls.school/ ">TJLS - Taunggyi Japanese Language School</a> </span>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Will it can pass the practical exams by taking this classes?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p>
+                                        That is the advantage of taking eJLS. You can pass by study again and again the courses that is collected with frequently asked questions in exam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>    
+            </div>    
+        </div>    
+        </div>
         <!-- Completed Cases Start -->
-        <div class="completed-cases section-padding3">
+        <!-- <div class="completed-cases section-padding3">
             <div class="container-fluid">
                 <div class="row">
-                    <!-- slider Heading -->
+                    slider Heading
                     <div class="col-xl-4 col-lg-4 col-md-8">
                         <div class="single-cases-info mb-30">
                             <h3>Completed Cases</h3>
@@ -326,12 +526,12 @@
                             <a href="gallery.html" class="border-btn border-btn2">See more</a>
                         </div>
                     </div>
-                    <!-- OwL -->
+                    OwL
                     <div class="col-xl-8 col-lg-8 col-md-col-md-7">
                         <div class=" completed-active owl-carousel"> 
                             <div class="single-cases-img">
                                 <img src="assets/img/service/completed_case_1.png" alt="">
-                                <!-- img hover caption -->
+                                img hover caption
                                <div class="single-cases-cap">
                                     <h4><a href="case_details.html">Marketing Strategy</a></h4>
                                     <p>Completely impact synergistic mindshare whereas premium services.</p>
@@ -340,7 +540,7 @@
                             </div>
                             <div class="single-cases-img">
                                 <img src="assets/img/service/completed_case_2.png" alt="">
-                                <!-- img hover caption -->
+                                img hover caption
                                <div class="single-cases-cap">
                                    <h4><a href="case_details.html">Marketing Strategy</a></h4>
                                     <p>Completely impact synergistic mindshare whereas premium services.</p>
@@ -352,7 +552,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Completed Cases end -->
 
         <!-- Testimonial Start -->
@@ -423,7 +623,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-tittle text-center">
-                            <h2>Our Recent News</h2>
+                            <h2>Lateset <span class="text-danger">Posts</span></h2>
                         </div>
                     </div>
                 </div>
@@ -470,13 +670,13 @@
         <!-- Recent Area End-->
 
         <!-- Request Back Start -->
-        <div class="request-back-area section-padding30">
+        <div class="request-back-area section-padding30" style="background-color: black;">
             <div class="container">
                 <div class="row d-flex justify-content-between">
                     <div class="col-xl-4 col-lg-5 col-md-5">
                         <div class="request-content">
-                            <h3>Request for  Call Back</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore,</p>
+                            <h3>Get In Touch</h3>
+                            <p>Do you have any questions about our services? Get in touch with us now and we will be glad to get back to you shortly.</p>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-7 col-md-7">
@@ -531,15 +731,13 @@
                             </div>
                             <div class="footer-tittle">
                                 <div class="footer-pera">
-                                    <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod</p>
+                                    <p>အင်တာနက်ရှိရုံဖြင့် နေရာမရွေး အချိန်မရွေးသင်ယူလေ့လာနိုင်မည့် Nihongo သင်ကြားရေး website !</p>
                                </div>
                             </div>
                             <!-- social -->
                             <div class="footer-social">
                                 <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                                <a href="#"><i class="fab fa-telegram"></i></a>
                             </div>
                         </div>
                       </div>
@@ -547,21 +745,20 @@
                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                        <div class="single-footer-caption mb-50">
                            <div class="footer-tittle">
-                               <h4>Company</h4>
+                                <h4 class="text-dark">Quick Link</h4>
                                <ul>
-                                   <li><a href="index.html">Home</a></li>
-                                   <li><a href="about.html">About Us</a></li>
-                                   <li><a href="single-blog.html">Services</a></li>
-                                   <li><a href="#">Cases</a></li>
-                                   <li><a href="contact.html">  Contact Us</a></li>
+                                   <li><a href="index.html">Online Courses</a></li>
+                                   <li><a href="sessions.html">Upcomming Sessions</a></li>
+                                   <li><a href="blog.html">Blog</a></li>
+                                   <li><a href="contact.html">Contact</a></li>
                                </ul>
                            </div>
                        </div>
                    </div>
-                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                   <!-- <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
                        <div class="single-footer-caption mb-50">
                            <div class="footer-tittle">
-                               <h4>Services</h4>
+                               <h4>Quick Link</h4>
                                <ul>
                                    <li><a href="#">Commercial Cleaning</a></li>
                                    <li><a href="#">Office Cleaning</a></li>
@@ -571,15 +768,15 @@
                                </ul>
                            </div>
                        </div>
-                   </div>
+                   </div> -->
                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                        <div class="single-footer-caption mb-50">
                            <div class="footer-tittle">
-                               <h4>Get in Touch</h4>
+                               <h4 class="text-dark">Get in Touch</h4>
                                <ul>
-                                <li><a href="#">152-515-6565</a></li>
-                                <li><a href="#"> Demomail@gmail.com</a></li>
-                                <li><a href="#">New Orleans, USA</a></li>
+                                <li><a href="#">+959-442909042</a></li>
+                                <li><a href="#">ejls.learning@gmail.com</a></li>
+                                <li><a href="#">No.169, Room No.6-B,MTP Condo, Hlaing Township, Yangon</a></li>
                             </ul>
                            </div>
                        </div>
@@ -593,10 +790,14 @@
                <div class="footer-border">
                     <div class="row d-flex align-items-center">
                         <div class="col-xl-12 ">
-                            <div class="footer-copy-right text-center">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+
+                            <div class="footer-copy-right">
+                                <p class="text-start">
+                                    <a href="">Privacy</a>
+                                </p>
+                                <p class="text-end">
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | eJLS Learning. </a>
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Consulting HTML-5 Template </title>
+        <title>Who We Are</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="manifest" href="myapp-manifest.json">
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/icons_/icon-144.png">
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -45,23 +45,24 @@
     <header>
         <!-- Header Start -->
        <div class="header-area">
-            <div class="main-header">
-                <div class="header-top top-bg d-none d-lg-block">
+            <div class="main-header ">
+                <div class="header-top top-bg d-none d-lg-block" style="background-color: black;">
                    <div class="container-fluid">
                        <div class="col-xl-12">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
                                     <ul>     
-                                        <li><i class="fas fa-map-marker-alt"></i>65/A, 17th floor, Kings land, New York</li>
-                                        <li><i class="fas fa-envelope"></i>info@consulting.com</li>
+                                        <li><i class="fas fa-phone" style="rotate: 90deg;"></i>09-442909042</li>
+                                        <li><i class="fas fa-envelope"></i>ejls.learning@gmail.com</li>
                                     </ul>
                                 </div>
                                 <div class="header-info-right">
                                     <ul class="header-social">    
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <!-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> -->
+                                        <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                       <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                       <!-- <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -79,11 +80,11 @@
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8">
                                 <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
+                                <div class="main-menu f-right d-none d-lg-block text-dark">
                                     <nav> 
                                         <ul id="navigation">                                                                                                                                     
                                             <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="about.html">About Us</a></li>
                                             <li><a href="courses.html">Courses Plan</a>
                                               <ul class="submenu">
                                                   <li><a href="courses.html">N2 Course</a></li>
@@ -94,29 +95,46 @@
                                                   <li><a href="courses.html">Tokutei Course</a></li>
                                               </ul>
                                             </li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="cases.html">Cases</a></li>
+                                            <!-- <li><a href="services.html">Services</a></li> -->
+                                            <!-- <li><a href="cases.html">Cases</a></li> -->
                                             <li><a href="blog.html">Blog</a>
-                                                <ul class="submenu">
+                                            <li><a href="jobs.html">Japan Jobs</a>
+                                                <!-- <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
                                                     <li><a href="single-blog.html">Blog Details</a></li>
-                                                </ul>
+                                                </ul> -->
                                             </li>
-                                            <li><a href="#">Pages</a>
+                                            <!-- <li><a href="#">Pages</a>
                                                 <ul class="submenu">
                                                     <li><a href="contact.html">Contact</a></li>
                                                     <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="case_details.html">Case Details</a></li>
                                                 </ul>
+                                            </li> -->
+                                            <!-- Login & register in Nav  -->
+                                            <li class="userlog" style="margin-left: 20px;"> 
+                                                <a href="login.html" class="text-white" style="background-color: #d4000b; padding: 3px 11px!important; border-radius: 5px; border-width: 20px;">Login</a>
                                             </li>
+                                            <li class="userlog" style="margin-left: 20px;">
+                                                <a href="register.html" class="text-white" style="background-color: #d4000b; padding: 3px 11px!important; border-radius: 5px; border-width: 20px;">Register</a>
+                                            </li>
+
                                         </ul>
                                     </nav>
                                 </div>
                             </div>             
-                            <div class="col-xl-2 col-lg-3 col-md-3">
+                            <li class="userlog">
+                                <select name="language_sel" id="language_sel" class="text-danger">
+                                    <option value="#">English</option>
+                                    <option value="#">Myanmar</option>
+                                </select>
+                            </li>
+                            <!-- comment Contact Now  -->
+                            <!-- <div class="col-xl-2 col-lg-3 col-md-3">
                                 <div class="header-right-btn f-right d-none d-lg-block">
                                     <a href="#" class="btn header-btn">Contact Now</a>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- Mobile Menu -->
                             <div class="col-12">
                                 <div class="mobile_menu d-block d-lg-none"></div>
@@ -129,6 +147,7 @@
         <!-- Header End -->
     </header>
 
+
     <main>
 
         <!-- slider Area Start-->
@@ -139,7 +158,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap text-center">
-                                <h2>About</h2>
+                                <h2>About Us</h2>
                             </div>
                         </div>
                     </div>

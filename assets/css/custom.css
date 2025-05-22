@@ -1,0 +1,87 @@
+.reason-box {
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #fff;
+        border: 2px solid lightgrey;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .reason-box:hover {
+        transform: translateY(-5px);
+        background-color: whitesmoke;
+    }
+
+    .reason-icon {
+        font-size: 2.5rem;
+        color: #e63946;
+        margin-bottom: 10px;
+    }
+
+    .reason-title {
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .reason-text {
+        font-size: 1rem;
+        color: #333;
+    }
+
+    /* Slide Annimation */
+    @keyframes slideInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slideInRight {
+        from {  
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .slide-left {
+        animation: slideInLeft 1s ease forwards;
+    }
+
+    .slide-right {
+        animation: slideInRight 1s ease forwards;
+    }
+
+    .section-paddingt{
+		padding-top: 185px;
+		padding-bottom: 170px;
+		@media #{$laptop}{
+			padding-top: 185px;																																																																																							
+			padding-bottom: 170px;
+		}
+		@media #{$lg}{
+			padding-top: 150px;
+			padding-bottom: 120px;
+		}
+		@media #{$md}{
+			padding-top: 100px;
+			padding-bottom: 70px;
+		}
+		@media #{$sm}{
+			padding-top: 60px;
+			padding-bottom: 28px;
+		}
+		@media #{$xs}{
+			padding-top: 60px;
+			padding-bottom: 28px;
+		}
+	}
+	
